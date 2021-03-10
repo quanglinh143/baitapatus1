@@ -658,8 +658,9 @@
 }
 
 input[type=text]:focus {
-    border: 3px solid rgb(87, 116, 243);
+    border: 1px solid rgb(87, 116, 243);
   }
+
 
 
 .request-form--pr---rate----heart{

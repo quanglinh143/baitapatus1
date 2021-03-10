@@ -152,6 +152,12 @@
     display: flex;
     justify-content: center;
 }
+input[type=text]:focus {
+    border: 1px solid rgb(123, 176, 236);
+  }
+  input[type=password]:focus {
+    border: 1px solid rgb(123, 176, 236);
+  }
 
 .input-pass{
     margin-top: 22px;
