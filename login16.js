@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.isearchm').click(function(){
+      $('.searching').toggleClass('activeee');
+    })
+  })
+  $(document).ready(function(){
+    $('.isearchh').click(function(){
+      $('.searchingg').toggleClass('activee');
+    })
+  })

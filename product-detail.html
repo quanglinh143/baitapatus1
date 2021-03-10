@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-detail</title>
+    <link rel="stylesheet" href="product-detail.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="container-fruid">
+        <div class="navigation-head">
+            <div style="margin-left:50px;" class="navigation-head--img"><a href="th16.html"><img  src="pic1/pics3.png" alt=""></a></div>
+                <div class="navigation-head--content">
+                    <div class=" navigation-head--link">
+                        <ul >
+                            <li><a href="shop16.html">Shop</a></li>
+                            <li><a href="kits.html">Kits</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="contact16.html">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="head-font--icon">
+            
+                    <ul  >
+                        <li >
+                            <div class="isearch">
+                                <i class="fas fa-search fa-2x isearchm"></i>
+                                <input class="searching" type="text">
+                      
+                            </div>
+                      
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-user fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-heart fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-square fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-detail">
+            <div class="product-detail--left">
+                <img src="pic1/product1.png" alt="">
+                <div class="product-detail--left---suggestion">
+                    <img src="pic1/productboth.png" alt="" style="width:61px; height: 61px;">
+                    <img src="pic1/productboth.png" alt="" style="width:61px; height: 61px; margin-left: 16px;">
+                </div>
+                <div class="product-detail--use">How to use</div>
+                <div class="product-detail--ingredients">Ingredients</div>
+            </div>
+
+            <div class="product-detail--right">
+                <div class="product-detail--right---text1">Pearly Goddess Gentle Make-up Remover</div>
+                <div class="product-detail--right----text2">APHRO’s Original Make-up Remover</div>
+                <div class="product-detail--right---icons">
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star" id="idisable"></i></li>
+                    </ul> 
+                    <div class="product-detail--right---icons----views">998 Reviews</div>
+                </div>
+                <div class="product-detail--right----price">$9.80</div>
+
+                <div class="product-detail--f">
+                    <div class="product-detail--f1">
+                        <div class="product-detail--f1---ingredients">
+                            SIZE1 oz/30 mL
+                        </div>
+                        <div class="product-detail--f1---add">
+                            Add to card
+                        </div>
+                    </div>
+                    <div class="product-detail--f2">
+                        <div class="product-detail--f2---numbers">
+                            1
+                        </div>
+                        <div class="product-detail--f2---heart">
+                            <i class="far fa-heart " style="font-size: 24px;"></i> 
+                            <div>Add to wishlist</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-detail--parameters">
+                    <div class="product-detail--parameters---questions">Which skin type is it good for?</div>
+                    <div class="questions-normal" id="parameters-flex"><span ><i class="fas fa-check"></i></span><p>Normal</p></div>
+                    <div class="questions-Oily" id="parameters-flex"><span ><i class="fas fa-check"></i></span><p>Oily</p></div>
+                    <div class="questions-Combination" id="parameters-flex"><span ><i class="fas fa-check"></i></span><p>Combination</p></div>
+                    <div class="questions-Dry" id="parameters-flex"><span ><i class="fas fa-check"></i></span><p>Dry</p></div>
+                    <div class="questions-Sensi" id="parameters-flex"><span ><i class="fas fa-check"></i></span><p>Sensi</p></div>
+                    
+                    
+                        <div class="questions-general">What is it:</div>
+                        <div  style="padding-right: 150px;">A daily support formula with 100 percent high-purity, sustainably-sourced, organic, cold-pressed rose hip seed oil</div>
+                        <div class="questions-general">If you want to know more…</div>
+                        <div  style="padding-right: 150px;">This formulat and pro-vitamin A—that is both cold-pressed and organic. This oil has been shown to reduce signs of photo-aging nd many other skin conditions.</div>
+                        <div class="questions-general">What else you need to know:</div>
+                        <div style="padding-right: 150px;">This product is vegan, cruelty-free, cold-pressed, organic, and formulated without water, 
+                            alcohol, silicone, nuts, and gluten. Rose Hip Seed Oil is completely unrefined and imparts 
+                            a natural scent partly due to its high omega fatty acid content. This scent is not an 
+                            indication of rancidity. Rose Hip Seed Oil that does not have a scent is refined and offers 
+                            reduced benefits. It comes in UV-protective packaging.
+                            
+                        </div>
+                        
+
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-community">
+            <div class="reviews-community--bold">Review from the Aphro’s Community</div>
+            <div class="reviews-community--text">Based on their real experience, these are all from our verified buyers, not seeding at all</div>
+        </div>
+        <!-- <div class="reviews-person">
+            
+            <div class="reviews-person--over">
+                
+                <input type="radio" name="radio-btn" id="radio-1">
+                <input type="radio" name="radio-btn" id="radio-2">
+                <input type="radio" name="radio-btn" id="radio-3">
+                <input type="radio" name="radio-btn" id="radio-4">
+                <input type="radio" name="radio-btn" id="radio-5">
+
+                <div class="reviews-person--id1 first id" >
+                    <div class="person-head">
+                        <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                        <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                        
+                    </div>
+                    <div class="person-body">
+                        <div class="person-body--flex">
+                            <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                            <div class="person-body--heart">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star" id="idisable"></i></li>
+                                </ul> 
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="person-body--mess">
+                        <span>It took  my breath away!</span> 
+                        <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                    </div>
+                    <div class="person-body--footer">
+                        <img src="pic1/person1.png" alt="">
+                        <img src="pic1/person2.png" alt="">
+                    </div>
+                        
+                </div>
+                <div class="reviews-person--id2 id">
+                    <div class="person-head">
+                        <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                        <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                        
+                    </div>
+                    <div class="person-body">
+                        <div class="person-body--flex">
+                            <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                            <div class="person-body--heart">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star" id="idisable"></i></li>
+                                </ul> 
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="person-body--mess">
+                        <span>It took  my breath away!</span> 
+                        <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                    </div>
+                    <div class="person-body--footer">
+                        <img src="pic1/person1.png" alt="">
+                        <img src="pic1/person2.png" alt="">
+                    </div>
+                </div>
+                <div class="reviews-person--id3 id" >
+                    <div class="person-head">
+                        <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                        <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                        
+                    </div>
+                    <div class="person-body">
+                        <div class="person-body--flex">
+                            <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                            <div class="person-body--heart">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star" id="idisable"></i></li>
+                                </ul> 
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="person-body--mess">
+                        <span>It took  my breath away!</span> 
+                        <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                    </div>
+                    <div class="person-body--footer">
+                        <img src="pic1/person1.png" alt="">
+                        <img src="pic1/person2.png" alt="">
+                    </div>
+                </div>
+                <div class="reviews-person--id4 id" >
+                    <div class="person-head">
+                        <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                        <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                        
+                    </div>
+                    <div class="person-body">
+                        <div class="person-body--flex">
+                            <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                            <div class="person-body--heart">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star" id="idisable"></i></li>
+                                </ul> 
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="person-body--mess">
+                        <span>It took  my breath away!</span> 
+                        <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                    </div>
+                    <div class="person-body--footer">
+                        <img src="pic1/person1.png" alt="">
+                        <img src="pic1/person2.png" alt="">
+                    </div>
+                </div>
+                <div class="reviews-person--id5 id" >
+                    <div class="person-head">
+                        <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                        <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                        
+                    </div>
+                    <div class="person-body">
+                        <div class="person-body--flex">
+                            <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                            <div class="person-body--heart">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star" id="idisable"></i></li>
+                                </ul> 
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="person-body--mess">
+                        <span>It took  my breath away!</span> 
+                        <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                    </div>
+                    <div class="person-body--footer">
+                        <img src="pic1/person1.png" alt="">
+                        <img src="pic1/person2.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="prev"><i class="fas fa-chevron-left fa-5x"></i></div>
+                <div class="next"><i class="fas fa-chevron-right fa-5x"></i></div>
+            </div>
+
+            
+
+        </div>
+        <div class="circle">
+            <label for="radio-1" class="circle-css"></label>
+            <label for="radio-2" class="circle-css"></label>
+            <label for="radio-3" class="circle-css"></label>
+            <label for="radio-4" class="circle-css"></label>
+            <label for="radio-5" class="circle-css"></label>
+            
+        </div> -->
+
+        <div class="big-reviews--slide">
+
+            <div class="owl-carousel owl-theme" id="reviewsslide">
+                <div class="item">
+                    <div class="reviews-person--id1 first id" >
+                        <div class="person-head">
+                            <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                            <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                            
+                        </div>
+                        <div class="person-body">
+                            <div class="person-body--flex">
+                                <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                                <div class="person-body--heart">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star" id="idisable"></i></li>
+                                    </ul> 
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="person-body--mess">
+                            <span>It took  my breath away!</span> 
+                            <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                        </div>
+                        <div class="person-body--footer">
+                            <img src="pic1/person1.png" alt="" style="width: 70px;
+                            height: 70px;">
+                            <img src="pic1/person2.png" alt="" style="width: 70px;
+                            height: 70px; margin-left:14px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="reviews-person--id1 first id" >
+                        <div class="person-head">
+                            <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                            <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                            
+                        </div>
+                        <div class="person-body">
+                            <div class="person-body--flex">
+                                <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                                <div class="person-body--heart">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star" id="idisable"></i></li>
+                                    </ul> 
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="person-body--mess">
+                            <span>It took  my breath away!</span> 
+                            <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                        </div>
+                        <div class="person-body--footer">
+                            <img src="pic1/person1.png" alt="" style="width: 70px;
+                            height: 70px;">
+                            <img src="pic1/person2.png" alt="" style="width: 70px;
+                            height: 70px; margin-left:14px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="reviews-person--id1 first id" >
+                        <div class="person-head">
+                            <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                            <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                            
+                        </div>
+                        <div class="person-body">
+                            <div class="person-body--flex">
+                                <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                                <div class="person-body--heart">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star" id="idisable"></i></li>
+                                    </ul> 
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="person-body--mess">
+                            <span>It took  my breath away!</span> 
+                            <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                        </div>
+                        <div class="person-body--footer">
+                            <img src="pic1/person1.png" alt="" style="width: 70px;
+                            height: 70px;">
+                            <img src="pic1/person2.png" alt="" style="width: 70px;
+                            height: 70px; margin-left:14px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="reviews-person--id1 first id" >
+                        <div class="person-head">
+                            <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                            <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                            
+                        </div>
+                        <div class="person-body">
+                            <div class="person-body--flex">
+                                <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                                <div class="person-body--heart">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star" id="idisable"></i></li>
+                                    </ul> 
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="person-body--mess">
+                            <span>It took  my breath away!</span> 
+                            <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                        </div>
+                        <div class="person-body--footer">
+                            <img src="pic1/person1.png" alt="" style="width: 70px;
+                            height: 70px;">
+                            <img src="pic1/person2.png" alt="" style="width: 70px;
+                            height: 70px; margin-left:14px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="reviews-person--id1 first id" >
+                        <div class="person-head">
+                            <div class="person-head--img"><img src="pic1/person.png" alt=""></div>
+                            <div class="person-head--text1">Random  online gal <p>Do i recommend: Yes</p></div>
+                            
+                        </div>
+                        <div class="person-body">
+                            <div class="person-body--flex">
+                                <div class="person-body--text"><p class="person-body--text---t1">Skintype:</p><p class="person-body--text---t2">Combination</p></div>
+                                <div class="person-body--heart">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star" id="idisable"></i></li>
+                                    </ul> 
+                                </div>
+    
+                            </div>
+                            
+                        </div>
+                        <div class="person-body--mess">
+                            <span>It took  my breath away!</span> 
+                            <p>I’m broke, but i like this brand, but i’m broke, but i still like this brand. I mean the price is a problem, not the product</p> 
+                        </div>
+                        <div class="person-body--footer">
+                            <img src="pic1/person1.png" alt="" style="width: 70px;
+                            height: 70px;">
+                            <img src="pic1/person2.png" alt="" style="width: 70px;
+                            height: 70px; margin-left:14px;">
+                        </div>
+                    </div>
+                </div>
+    
+               
+                
+            </div>
+            
+        </div>
+
+        <!-- Option -->
+        <div class="option">
+            <div class="option-sort">
+               <span style="font-weight:bold;" >Sort by:</span>  Recommended
+            </div>
+            <div class="option-op">
+                <div  style="padding-left: 18px;">Categories</div>
+                <div  style="padding-left: 18px;">Categories 2</div>
+            </div>
+
+        </div>
+
+        <!-- Request -->
+        <div class="request">
+            <div class="request-left">
+                <div class="request-left--bold">You have tried this product?</div>
+                <div class="request-left--text1">Please share with us your experience. Feel free to to give any 
+                    useful tips for the Aphro’s Community We are always very grateful with your feedbacks.
+                </div>
+                <div class="request-left--text2">Start writing a Review with just a few simple steps
+                </div>
+
+                <div class="request-left--icon">
+                    <div class="request-left--icon---img">
+                        <img src="pic1/beaphro.png" alt="">
+                    </div>
+                    <div class="request-left--icon---hashtag">
+                        #BEAPHRO
+                    </div>
+                </div>
+            </div>
+
+            <div class="request-form">
+                <div class="request-form--gr1" style="margin-bottom: 14px;">
+                    <input type="text" placeholder="Name" style="width:360px; height: 36px;  padding:6.5px 11px;">
+                    <input type="text" placeholder="Skin-type" style="width:195px; height: 36px; margin-left: 12px;  padding:6.5px 11px;">
+                </div>
+                <div class="request-form--pr" style="margin-bottom: 14px;">
+                    <div class="request-form--pr---recommend">
+                        <div><input type="text" placeholder="Do I recommend this product" style="width:220px; height: 36px;  padding:6.5px 11px;"></div>
+                        
+                        <div class="request-form--pr---rate"><span style="margin: 4px 0 0 10px; ">Rating</span>    
+                            <div class="request-form--pr---rate----heart" style="margin: 5px 0 0 8px; ">
+                                <ul >
+                                    <li ><i class="fas fa-star"></i></li>
+                                    <li style="padding-left: 4px;"><i class="fas fa-star"></i></li>
+                                    <li style="padding-left: 4px;"><i class="fas fa-star"></i></li>
+                                    <li style="padding-left: 4px;"><i class="fas fa-star"></i></li>
+                                    <li style="padding-left: 4px;"><i class="fas fa-star"></i></li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="request-form--tiltle"><input type="text" placeholder="Tiltle" style="width:628px; height: 36px; margin-bottom: 14px;  padding:6.5px 11px;"></div>
+                <div class="request-form--tiltle">
+                    <textarea id="w3review" placeholder="Type your detail review here" name="w3review" rows="4" style="width:628px;  padding:6.5px 11px;">
+                       
+                        </textarea>
+                </div>
+                <div class="request-form--btn">
+                    <button class="submit" >Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-login">
+            <div class="footer-left">
+                <div class="logo">
+                    <img style="width:186px; height: 38px;" src="pic1/pic5.png" alt="">
+                </div>
+                <div class="list-about">
+                    <ul>
+                        <li><a href="#">Home |&nbsp;</a></li>
+                        <li><a href="#">Shop |&nbsp;</a></li>
+                        <li><a href="#">Kits |&nbsp;</a></li>
+                        <li><a href="#">About |&nbsp;</a></li>
+                        <li><a href="#">Shipping policy</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="text-left">#belikeAphrodite @since2020</div>
+            </div>
+
+
+            <div class="footer-right">
+                <div class="text-right">About the company</div>
+                <div class="text-right--long" style="margin-top: 32px;">We only formulate with the highest quality natural ingredients, and believe what’s not in the formula is just as important as what is.</div>
+                <div class="icon-right">
+                    <i style="font-size: 22px;" class="fab fa-facebook"></i>
+                    <a href="#"><i style="color: #FFF; font-size: 22px; margin:12px 12px;"  class="fab fa-instagram fa-2x"></i></a>
+                    <i style="font-size: 22px;" class="fab fa-twitter"></i>
+                </div>
+                <div style="font-size: 12px;" class="note-right">© 2020 APHRO Vietnam, Inc. All rights reserved.</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="product-detail.js"></script>
+</body>
+</html>
